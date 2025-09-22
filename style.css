@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.left img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.right {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.right h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 0 30px 0;
+    color:  black;
+}
+
+.right p {
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    line-height: 2;
+    color: black;
+}
+
+.right a span {
+    border-bottom: black;
+    cursor: pointer;
+    color: black;
+}
+
+.button {
+    background: #f173b8;
+    color: #493245;
+    padding: 12px 35px;
+    width: fit-content;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
